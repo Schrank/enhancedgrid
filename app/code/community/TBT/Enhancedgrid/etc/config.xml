@@ -2,7 +2,7 @@
 <config>
     <modules>
         <TBT_Enhancedgrid>
-            <version>1.3.6</version>
+            <version>1.3.7</version>
         </TBT_Enhancedgrid>
     </modules>
     <admin>
@@ -87,14 +87,14 @@
                 <isenabled>1</isenabled>
             </general>
             <columns>
-                <showcolumns>id,name,type_id,sku,price,qty,visibility,status,websites,thumbnail</showcolumns>
+                <showcolumns>id,name,type_id,sku,price,qty,visibility,status,websites,thumbnail,updated_at</showcolumns>
                 <truncatelongtextafter>60</truncatelongtextafter>
             </columns>
             <images>
                 <showurl>0</showurl>
                 <showbydefault>1</showbydefault>
-                <width>75</width>
-                <height>75</height>
+                <width>50</width>
+                <height>50</height>
             </images>
             <defaults>
                 <limit>20</limit>
