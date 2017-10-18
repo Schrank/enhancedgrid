@@ -36,7 +36,7 @@ class TBT_Enhancedgrid_Block_System_Html
         $html = '';
         $html .= '
         	<div style=" margin-bottom: 12px; width: 430px;">
-            Enhanced Grid v'.Mage::getConfig()->getNode('modules/TBT_Enhancedgrid/version').". <a href='https://github.com/jayelkaake/enhancedgrid' target='_blank'>Click here for updates.</a><BR />
+            Enhanced Grid v'.Mage::getConfig()->getNode('modules/TBT_Enhancedgrid/version').". <a href='https://github.com/crysix/enhancedgrid' target='_blank'>Click here for updates.</a><BR />
 		";
         //$html .= Mage::getBlockSingleton('enhancedgrid/widget_loyalty')->toHtml();
         $html .= '

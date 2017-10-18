@@ -1,13 +1,11 @@
-
 <config>
-
     <tabs>
         <tbtall translate="label" module="enhancedgrid">
             <label>Sweet Tooth Extensions</label>
             <sort_order>900</sort_order>
         </tbtall>
     </tabs>
-   <sections>
+    <sections>
         <enhancedgrid translate="label" module="enhancedgrid">
             <label>Enhanced Product Grid</label>
             <tab>tbtall</tab>
@@ -24,7 +22,7 @@
                     <show_in_website>1</show_in_website>
                     <fields>
                         <notice translate="label">
-                            <label>See https://github.com/jayelkaake/enhancedgrid for more information about this extension and to contribute.</label>
+                            <label>See https://github.com/crysix/enhancedgrid for more information about this extension and to contribute.</label>
                             <frontend_type>text</frontend_type>
                             <frontend_model>enhancedgrid/system_html</frontend_model>
                             <sort_order>10</sort_order>
